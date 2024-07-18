@@ -3,6 +3,9 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* HEADER */
 .header {
@@ -370,4 +373,17 @@ h3 {
 }
 .fa-wolf-pack-battalion{
     color: #f44336;
+}
+/* ----for tabblet----- */
+@media(max-width: 768px){
+    .row{
+        flex-direction: column;
+    }
+    .text-box h1{
+        font-size: 40px;
+    }
+    nav img{
+        width: 220px;
+    }
+
 }
