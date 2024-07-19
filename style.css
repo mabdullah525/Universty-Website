@@ -376,7 +376,7 @@ h3 {
 }
 /* ----for tabblet----- */
 @media(max-width: 768px){
-    .row{
+    .direction{
         flex-direction: column;
     }
     .text-box h1{
